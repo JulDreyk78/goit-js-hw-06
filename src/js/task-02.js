@@ -16,6 +16,5 @@ const li = ingredients.map((element) => {
   return creatLi;
 });
 
-// console.log(li);
 addToUl.append(...li);
 console.log(addToUl);
