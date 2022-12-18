@@ -8,8 +8,6 @@ console.log(inputName);
 const spanName = document.querySelector("#name-output");
 console.log(spanName);
 
-// inputName.textContent = "Anonymous";
-
 inputName.addEventListener("input", changeSpanName);
 
 function changeSpanName(event) {
